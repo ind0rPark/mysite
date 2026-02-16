@@ -39,4 +39,6 @@ h1 {
   background: linear-gradient(90deg, #6a5cff, #5f5af0);
   cursor: pointer;
   font-family: "DaeguBukseongro", sans-serif;
+  letter-spacing: 1px;
+
 }
