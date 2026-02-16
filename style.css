@@ -40,5 +40,140 @@ h1 {
   cursor: pointer;
   font-family: "DaeguBukseongro", sans-serif;
   letter-spacing: 1px;
+  display: inline-flex;
+  align-self: center;
+  justify-items: center;
+  text-decoration: none;
 
 }
+
+/* ===== Home Page ===== */
+
+.topnav {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  background: #ffffff;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-logo {
+  height: 28px;
+  width: auto;
+}
+
+.brand-text {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.menu-link {
+  font-size: 18px;
+  text-decoration: none;
+  color: #111;
+  padding: 8px 10px;
+}
+
+.menu-link.is-active {
+  font-weight: 800;
+  border-bottom: 2px solid #6a5cff;
+}
+
+.home {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.card-img {
+  width: 240px;
+  height: auto;
+}
+
+.card-body {
+  min-width: 360px;
+}
+
+.card-title {
+  font-size: 40px;
+  margin: 0 0 22px 0;
+}
+
+.card-actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 54px;
+  padding: 0 26px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.btn-primary {
+  background: #6a5cff;
+  color: #fff;
+  border: 1px solid #6a5cff;
+}
+
+.btn-outline {
+  background: transparent;
+  color: #6a5cff;
+  border: 1px solid #6a5cff;
+}
+
+/* 모바일 반응형 */
+@media (max-width: 720px) {
+  .topnav {
+    padding: 0 18px;
+  }
+  .menu {
+    gap: 14px;
+  }
+  .home {
+    padding: 40px 16px;
+    gap: 50px;
+  }
+  .card {
+    flex-direction: column;
+    gap: 18px;
+    text-align: center;
+  }
+  .card-body {
+    min-width: auto;
+  }
+  .card-title {
+    font-size: 32px;
+  }
+}
+
