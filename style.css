@@ -71,7 +71,7 @@ h1 {
 }
 
 .brand {
-  display: flex;
+  display: inline-block;
   align-items: center;
   gap: 12px;
 }
