@@ -9,6 +9,7 @@ body {
   margin: 0;
   font-family: "DaeguBukseongro", sans-serif;
   background-color: #eaeaea;
+  padding-top: 72px;
 }
 
 .hero {
@@ -56,6 +57,11 @@ h1 {
   justify-content: space-between;
   padding: 0 40px;
   background: #ffffff;
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:1000;
 }
 
 .brand {
@@ -176,4 +182,54 @@ h1 {
     font-size: 32px;
   }
 }
+
+/* ===== gallery 상단 탭 ===== */
+
+.gallery-head {
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 60px;
+}
+
+.gallery-title {
+  font-size: 36px;
+}
+
+.tab {
+  font-family: "DaeguBukseongro", sans-serif;
+  font-weight: 300;   /* Light 느낌 */
+  opacity: 0.4;
+}
+
+.tab.is-active {
+  font-weight: 800;   /* ExtraBold 느낌 */
+  opacity: 1;
+}
+
+.tab-divider {
+  margin: 0 20px;
+  opacity: 0.3;
+}
+
+/* ===== 시리즈 영역 ===== */
+
+.series-section {
+  width: 80%;
+  margin: 0 auto 150px auto;
+  scroll-margin-top: 120px; /* 상단 nav 가림 방지 */
+  text-align: center;
+}
+
+.series-title {
+  font-size: 28px;
+  margin-bottom: 40px;
+  font-family: "DaeguBukseongro", sans-serif;
+  font-weight: 800;
+}
+
+.series-section img {
+  width: 100%;
+  max-width: 1000px;
+}
+
 
