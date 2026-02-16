@@ -5,11 +5,13 @@
   <title>Gallery</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
+<body>
   <!-- Top Nav -->
   <header class="topnav">
-    <div class="brand">
-      <!-- 로고 이미지가 있으면 사용 -->
-      <img class="brand-logo" src="images/logo.png" alt="ind0rPark logo" />
+     <div class="brand">
+       <!-- 로고 이미지가 있으면 사용 -->
+       <img class="brand-logo" src="images/logo.png" alt="ind0rPark logo" />
     </div>
 
     <nav class="menu">
@@ -19,29 +21,35 @@
       <a class="menu-link" href="#">Contact</a>
     </nav>
   </header>
-<body>
 
-  <!-- 상단 네비 (기존 nav 있으면 그대로 두고 아래부터 추가해도 됨) -->
 
-  <section class="gallery-head">
-    <h1 class="gallery-title">
-      <span class="tab is-active">이모티콘 시리즈</span>
-      <span class="tab-divider">|</span>
-      <span class="tab">일러스트</span>
-    </h1>
-  </section>
+ <main class="page">
+    <section class="gallery-head">
+        <div class="container">
+         <div class="gallery-tabs">
+           <a class="tab is-active" href="gallery.html">이모티콘 시리즈</a>
+           <span class="tab-divider">|</span>
+           <a class="tab" href="illustration.html">일러스트</a>
+         </div>
+        </div>
+    </section>
+
 
   <!-- 돌멩이 시리즈 -->
   <section id="rock" class="series-section">
     <h2 class="series-title">락스타 돌멩이</h2>
+    <p class=""series-substitle"> - 웃음을 잃지 않는 락스타 돌멩이</p>
+
     <img src="images/rocks.png" alt="돌멩이 시리즈">
   </section>
 
   <!-- 민치 시리즈 -->
   <section id="minchi" class="series-section">
     <h2 class="series-title">민무늬 치타</h2>
+        <p class=""series-substitle"> - 기죽지 않는 민무늬 치타</p>
     <img src="images/minchis.png" alt="민치 시리즈">
   </section>
-
+   
+ </main>
 </body>
 </html>
