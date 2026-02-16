@@ -1,6 +1,13 @@
+@font-face {
+  font-family: "DaeguBukseongro";
+  src: url("./fonts/DaeguBukseongro-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: "DaeguBukseongro", sans-serif;
   background-color: #eaeaea;
 }
 
@@ -31,4 +38,5 @@ h1 {
   color: white;
   background: linear-gradient(90deg, #6a5cff, #5f5af0);
   cursor: pointer;
+  font-family: "DaeguBukseongro", sans-serif;
 }
