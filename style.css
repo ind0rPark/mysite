@@ -202,7 +202,7 @@ h1 {
   border: 1px solid #6a5cff;
 }
 
-/* 모바일 반응형 
+/* 모바일 반응형 */
 @media (max-width: 720px) {
   .topnav {
     padding: 0 18px;
@@ -226,7 +226,7 @@ h1 {
     font-size: 32px;
   }
 }
-*/
+
 /* ===== gallery 상단 탭 ===== */
 .container{
   max-width:1100px;
